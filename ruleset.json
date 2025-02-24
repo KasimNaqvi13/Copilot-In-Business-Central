@@ -1,0 +1,32 @@
+{
+    "rules": {
+        "AL": {
+            "rules": {
+                "NamingConvention": {
+                    "enabled": true,
+                    "options": {
+                        "type": "PascalCase"
+                    }
+                },
+                "Commenting": {
+                    "enabled": true,
+                    "options": {
+                        "minCommentLength": 10
+                    }
+                },
+                "NoUnusedVariables": {
+                    "enabled": true
+                },
+                "MaxLineLength": {
+                    "enabled": true,
+                    "options": {
+                        "maxLength": 120
+                    }
+                },
+                "NoMagicNumbers": {
+                    "enabled": true
+                }
+            }
+        }
+    }
+}
